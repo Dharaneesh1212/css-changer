@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Rubik&display=swap");
+
+body {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 163, 224, 0.842);
+}
+
+html {
+  font-family: "Comfortaa", cursive;
+  font-size: 22px;
+}
+
+:root {
+  --padding: 10px;
+  --blur: 0px;
+  --base: rgb(0, 0, 0);
+  --width: 50%;
+  --border-radius: 5px;
+}
+
+.container {
+  padding: 1rem;
+  min-height: 90vh;
+  min-width: 80vw;
+  background-color: rgba(255, 163, 224, 0.842);
+  box-shadow: 0px 5px 15px rgb(161, 161, 161);
+  border-radius: 50px;
+}
+
+.container-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.js {
+  color: rgb(248, 20, 20);
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.container-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.container-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.pic {
+  height: 15rem;
+  width: 27rem;
+  height: 80%;
+  margin-top: 1rem;
+  /* border: 5px solid black; */
+  width: var(--width);
+  padding: var(--padding);
+  filter: blur(var(--blur));
+  background-color: var(--base);
+  border-radius: var(--border-radius);
+}

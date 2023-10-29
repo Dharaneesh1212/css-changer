@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Changer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-one">
+        <h2 class="para">
+          Change the CSS of below image as you wish with the help of
+        </h2>
+        <br />
+        <span class="js"><b>JavaScript</b></span>
+      </div>
+      <div class="container-two">
+        <label>Width :</label>
+        <input
+          id="width"
+          type="range"
+          name="width"
+          min="0"
+          max="100"
+          value="50"
+          data-sizing="%"
+        />
+        <label>Border-radius :</label
+        ><input
+          id="border-radius"
+          type="range"
+          name="border-radius"
+          min="0"
+          max="100"
+          value="5"
+          data-sizing="px"
+        />
+        <label>Base color </label>
+        <input id="base" type="color" name="base" value="#000000" />
+        <label>Padding :</label>
+        <input
+          id="padding"
+          type="range"
+          name="padding"
+          min="10"
+          max="200"
+          value="0"
+          data-sizing="px"
+        />
+        <label>Blur :</label
+        ><input
+          id="blur"
+          type="range"
+          name="blur"
+          min="0"
+          max="25"
+          value="0"
+          data-sizing="px"
+        />
+      </div>
+      <div class="container-three">
+        <img
+          class="pic"
+          src="photo-1477959858617-67f85cf4f1df.avif"
+          alt="test-img"
+        />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
